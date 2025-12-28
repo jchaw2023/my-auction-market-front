@@ -1,0 +1,22 @@
+.dashboard-page {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.dashboard-header {
+  margin-bottom: 32px;
+}
+
+.dashboard-header h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #1a1a1a;
+}
+
+.dashboard-header p {
+  font-size: 16px;
+  color: #8c8c8c;
+}
+

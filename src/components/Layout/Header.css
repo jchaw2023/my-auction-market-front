@@ -1,0 +1,48 @@
+.app-header {
+  background: #fff !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06) !important;
+  padding: 0 !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+  display: flex !important;
+  align-items: center !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  height: 64px !important;
+  width: 100% !important;
+  line-height: 64px !important;
+  flex-shrink: 0 !important;
+  min-height: 64px !important;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 100%;
+}
+
+.header-logo {
+  margin-right: 48px;
+  cursor: pointer;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1890ff;
+}
+
+.header-menu {
+  flex: 1;
+  border-bottom: none;
+  min-width: 300px;
+}
+
+.header-actions {
+  margin-left: auto;
+}
+

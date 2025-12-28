@@ -1,0 +1,91 @@
+.auction-detail-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+.nft-detail-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.auction-detail-back-button {
+  margin: 0;
+}
+
+.auction-detail-main {
+  margin-bottom: 0;
+}
+
+.auction-detail-info-card {
+  height: 100%;
+}
+
+/* 紧凑布局，减少空白 */
+
+/* 出价记录表格紧凑样式 */
+.compact-bid-table .ant-table-thead > tr > th {
+  padding: 6px 8px !important;
+  font-size: 12px !important;
+  background-color: #fafafa;
+  font-weight: 500 !important;
+  border-bottom: 1px solid #f0f0f0 !important;
+}
+
+.compact-bid-table .ant-table-tbody > tr > td {
+  padding: 5px 8px !important;
+  font-size: 12px !important;
+  border-bottom: 1px solid #f5f5f5 !important;
+  vertical-align: middle !important;
+}
+
+/* 时间列居中对齐 */
+.compact-bid-table .ant-table-thead > tr > th:nth-child(1),
+.compact-bid-table .ant-table-tbody > tr > td:nth-child(1) {
+  text-align: center !important;
+}
+
+/* 金额列居中对齐 */
+.compact-bid-table .ant-table-thead > tr > th:nth-child(2),
+.compact-bid-table .ant-table-tbody > tr > td:nth-child(2) {
+  text-align: center !important;
+}
+
+/* 币种列居中对齐 */
+.compact-bid-table .ant-table-thead > tr > th:nth-child(3),
+.compact-bid-table .ant-table-tbody > tr > td:nth-child(3) {
+  text-align: center !important;
+}
+
+.compact-bid-table .ant-table-tbody > tr > td:nth-child(3) > span {
+  display: inline-block;
+}
+
+/* 出价钱包列左对齐 */
+.compact-bid-table .ant-table-thead > tr > th:nth-child(4),
+.compact-bid-table .ant-table-tbody > tr > td:nth-child(4) {
+  text-align: left !important;
+}
+
+.compact-bid-table .ant-table-tbody > tr:hover > td {
+  background-color: #f5f5f5;
+}
+
+.compact-bid-table .ant-table-tbody > tr:last-child > td {
+  border-bottom: none !important;
+}
+
+.compact-bid-table .ant-pagination {
+  margin-top: 12px !important;
+  margin-bottom: 0 !important;
+  font-size: 11px !important;
+}
+
+.compact-bid-table .ant-table {
+  font-size: 12px;
+}
+
+.compact-bid-table .ant-table-container {
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+}
