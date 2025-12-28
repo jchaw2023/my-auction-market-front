@@ -14,6 +14,23 @@ NFT 拍卖商城是一个基于区块链的去中心化 NFT 拍卖平台，由�
 - 📱 **响应式设计**：适配桌面端和移动端
 - 🌍 **国际化支持**：支持中英文切换
 
+### 界面预览
+
+#### 首页
+![首页](./screenshots/home.png)
+
+#### 拍卖详情
+![拍卖详情](./screenshots/detail.png)
+
+#### 我的 NFT
+![我的NFT](./screenshots/my-nft.png)
+
+#### 创建拍卖
+![创建拍卖](./screenshots/auction.png)
+
+#### 拍卖历史
+![拍卖历史](./screenshots/history.png)
+
 ---
 
 ## 🏗️ 技术架构
@@ -271,7 +288,14 @@ my-auction-market-front/
 ├── package.json                    # 项目配置和依赖
 ├── package-lock.json               # 依赖锁定
 ├── README.md                       # 项目说明
-└── WALLET_AND_CONTRACT_INTEGRATION.md # 钱包和合约集成文档
+├── PROJECT_SUMMARY.md              # 项目总结文档（本文件）
+├── WALLET_AND_CONTRACT_INTEGRATION.md # 钱包和合约集成文档
+└── screenshots/                    # 项目界面截图
+    ├── home.png                    # 首页截图
+    ├── detail.png                  # 拍卖详情截图
+    ├── my-nft.png                  # 我的NFT截图
+    ├── auction.png                 # 创建拍卖截图
+    └── history.png                 # 拍卖历史截图
 ```
 
 ---
@@ -300,6 +324,8 @@ my-auction-market-front/
 - 保存 NFT 元数据（名称、图片、描述等）到数据库
 - 支持批量同步和增量更新
 
+![我的NFT](./screenshots/my-nft.png)
+
 #### NFT 授权
 - 检查 NFT 是否已授权给拍卖合约
 - 支持单次授权（approve）和批量授权（setApprovalForAll）
@@ -313,11 +339,21 @@ my-auction-market-front/
 - 设置拍卖开始和结束时间
 - 自动将 NFT 转移到合约（需要先授权）
 
+![创建拍卖](./screenshots/auction.png)
+
 #### 拍卖查询
 - 首页公开拍卖列表（按状态和时间排序）
+
+![首页](./screenshots/home.png)
+
 - 拍卖详情查询
+
+![拍卖详情](./screenshots/detail.png)
+
 - 我的拍卖列表（支持状态筛选）
 - 拍卖历史记录
+
+![拍卖历史](./screenshots/history.png)
 
 #### 拍卖状态
 - **pending**: 待上架（创建但未开始）

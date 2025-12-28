@@ -16,6 +16,23 @@ React + TypeScript + Vite 构建的 NFT 拍卖商城前端应用。这是一个�
 - 📱 **响应式设计**：适配桌面端和移动端
 - 🌍 **国际化支持**：支持中英文切换
 
+## 🖼️ 界面预览
+
+### 首页
+![首页](./screenshots/home.png)
+
+### 拍卖详情
+![拍卖详情](./screenshots/detail.png)
+
+### 我的 NFT
+![我的NFT](./screenshots/my-nft.png)
+
+### 创建拍卖
+![创建拍卖](./screenshots/auction.png)
+
+### 拍卖历史
+![拍卖历史](./screenshots/history.png)
+
 ## 技术栈
 
 - **React 18** + **TypeScript**
@@ -163,7 +180,13 @@ my-auction-market-front/
 ├── package-lock.json               # 依赖锁定
 ├── README.md                       # 项目说明
 ├── PROJECT_SUMMARY.md              # 项目总结文档（详细版）
-└── WALLET_AND_CONTRACT_INTEGRATION.md # 钱包和合约集成文档
+├── WALLET_AND_CONTRACT_INTEGRATION.md # 钱包和合约集成文档
+└── screenshots/                    # 项目界面截图
+    ├── home.png                    # 首页截图
+    ├── detail.png                  # 拍卖详情截图
+    ├── my-nft.png                  # 我的NFT截图
+    ├── auction.png                 # 创建拍卖截图
+    └── history.png                 # 拍卖历史截图
 ```
 
 ## 环境变量配置
@@ -243,6 +266,8 @@ server: {
 - 自动获取 NFT 元数据（名称、图片、描述等）
 - 支持批量同步和增量更新
 
+![我的NFT](./screenshots/my-nft.png)
+
 **NFT 授权**：
 - 检查 NFT 是否已授权给拍卖合约
 - 支持单次授权（approve）和批量授权（setApprovalForAll）
@@ -261,6 +286,12 @@ server: {
 5. 确认创建，系统自动在链上创建拍卖
 6. 等待交易确认，成功后拍卖创建完成
 
+![创建拍卖](./screenshots/auction.png)
+
+**拍卖历史**：查看我的拍卖历史记录，包括已完成和已取消的拍卖
+
+![拍卖历史](./screenshots/history.png)
+
 ### 4. 拍卖浏览
 
 **首页**：
@@ -269,11 +300,15 @@ server: {
 - 自动排序（active 在前，ended 在后）
 - 显示拍卖基本信息：NFT 图片、名称、起拍价、最高出价等
 
+![首页预览](./screenshots/home.png)
+
 **拍卖详情**：
 - 完整的 NFT 信息展示
 - 拍卖状态和时间倒计时
 - 出价历史列表
 - 实时出价更新（WebSocket）
+
+![拍卖详情预览](./screenshots/detail.png)
 
 ### 5. 出价功能
 
